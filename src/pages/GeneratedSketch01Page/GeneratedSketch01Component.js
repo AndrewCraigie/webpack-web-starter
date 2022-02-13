@@ -7,8 +7,6 @@ import generatedSketch01Sketch from "./generatedSketch01Sketch";
 
 const GeneratedSketch01P5Wrapper = p5WrapperGenerator(generate(), 800, 600);
 
-console.log(generatedSketch01Sketch);
-
 const GeneratedSketch01Component = (props) => {
 
     return (

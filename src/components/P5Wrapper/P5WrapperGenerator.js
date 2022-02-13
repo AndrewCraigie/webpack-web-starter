@@ -1,4 +1,5 @@
 import React, {memo, useEffect, useRef} from 'react'
+import p5 from 'p5';
 import PropTypes from 'prop-types'
 
 import {generate} from 'shortid'
@@ -21,7 +22,7 @@ const P5WrapperGenerator = function (id = generate(), sketchWidth, sketchHeight)
 
         useEffect(() => {
 
-            canvas = new window.p5(sketch, sketchContainer.current)
+            canvas = new p5(sketch, sketchContainer.current)
             canvas.state = state
             canvas.dispatch = dispatch
 

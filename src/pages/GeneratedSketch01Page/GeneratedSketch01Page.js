@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+
 import GeneratedSketch01Component from './GeneratedSketch01Component';
 
 const GeneratedSketch01Page = () => {
-
-    console.log('Generated Sketch 01 Page method called');
 
     const defaultDebugObject = {
         sketchFramerate: '',
@@ -14,6 +13,8 @@ const GeneratedSketch01Page = () => {
     const [debugObject, setDebugObject] = useState(defaultDebugObject)
     const [showFramerate, setShowFramerate] = useState(true);
     const [showDebugInfo, setShowDebugInfo] = useState(true);
+
+
 
     const sketchName = 'GeneratedSketch01';
     const sketchWidth = 800;
