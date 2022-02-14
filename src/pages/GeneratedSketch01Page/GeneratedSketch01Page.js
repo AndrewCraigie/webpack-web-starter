@@ -12,7 +12,7 @@ const GeneratedSketch01Page = () => {
 
     const [debugObject, setDebugObject] = useState(defaultDebugObject)
     const [showFramerate, setShowFramerate] = useState(true);
-    const [showDebugInfo, setShowDebugInfo] = useState(true);
+    const [showDebugInfo, setShowDebugInfo] = useState(false);
 
 
 
